@@ -21,7 +21,7 @@ select count(distinct Salary) from employee;
 select sum(Salary) as total_sal, max(Salary) as Max_sal, min(Salary) as Mini_sal, avg(Salary) as Avg_sal from employee;
 
 
--- join será abordado no curso 5
+-- join será abordado no curso 4
 SELECT SUM(Salary), MAX(Salary), MIN(Salary), AVG(Salary)
 FROM (employee JOIN departament ON Dno = Dnumber)
 WHERE Dname = 'Research';
